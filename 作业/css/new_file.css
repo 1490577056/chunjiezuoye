@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	font-family: "宋体";
+}
+.box1{
+	height: 100px;
+	background:ffffff;
+}
+.box1-con{
+	margin: 0 auto;
+}
+
+.tu{
+	float: left;
+	width: 180px;
+	height: 35px;
+	padding: 26px 0px 30px 36px;
+	
+}
+.nav{
+	float: right;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	
+}
+.nav a{
+	color: black;
+	font-size: 16px;
+	padding: 15px 20px;
+}
+.nav a:first-child{
+	color: red;
+}
+.nav a:hover{
+	border: palegoldenrodsolid 1px red;
+	color: red;
+}
+.box2{
+	padding 100px 0 atuo;
+	height: 833px;
+	position: relative;
+	background: url(../img/c2.jpg) center top/cover;
+	animation: mybox3 15s linear infinite;
+}
+@keyframes mybox3{
+	0%{background: url(../img/c2.jpg) center top/cover;}
+	16.5%{background: url(../img/c2.jpg) center top/cover;}
+	33%{background: url(../img/c3.jpg) center top/cover;}
+	50%{background: url(../img/c2.jpg) center top/cover;}
+	66.5%{background: url(../img/c3.jpg) center top/cover;}
+	83%{background: url(../img/c2.jpg) center top/cover;}
+	100%{background: url(../img/c2.jpg) center top/cover;}
+}
